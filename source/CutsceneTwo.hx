@@ -103,8 +103,8 @@ class CutsceneTwo extends MusicBeatState
 
 
 
-		var video:MP4Handler = new MP4Handler();
-		video.playMP4(Paths.video('cut2'), new PlayState(), lines, false, false, false);
+		// var video:MP4Handler = new MP4Handler();
+		// video.playMP4(Paths.video('cut2'), new PlayState(), lines, false, false, false);
 		
 		
 		
