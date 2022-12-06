@@ -1,5 +1,5 @@
 import flixel.system.debug.Window;
-import polymod.fs.SysFileSystem;
+
 import lime.system.System;
 import flixel.input.keyboard.FlxKey;
 import haxe.Exception;
