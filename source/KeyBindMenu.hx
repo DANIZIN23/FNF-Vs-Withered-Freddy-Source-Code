@@ -29,7 +29,7 @@ class KeyBindMenu extends MusicBeatState
     var keyWarning:FlxText;
     var warningTween:FlxTween;
     var keyText:Array<String> = ["LEFT", "DOWN", "UP", "RIGHT"];
-    var defaultKeys:Array<String> = ["A", "S", "W", "D", "R"];
+    var defaultKeys:Array<String> = ["D", "F", "J", "K", "NONE"];
     var curSelected:Int = 0;
 
     var keys:Array<String>;
