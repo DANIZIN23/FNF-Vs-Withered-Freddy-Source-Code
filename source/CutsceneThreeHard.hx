@@ -2,7 +2,7 @@
 
 package;
 
-import polymod.format.ParseRules.PlainTextParseFormat;
+
 import haxe.display.JsonModuleTypes.JsonTypeParameters;
 import flixel.FlxG;
 import flixel.FlxSprite;
