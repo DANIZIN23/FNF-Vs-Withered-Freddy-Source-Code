@@ -218,11 +218,9 @@ class MinigameTwo extends MusicBeatState
 
 		
 		
-		#if polymod
-		polymod.Polymod.init({modRoot: "mods", dirs: ['introMod']});
-		#end
 		
-		#if sys
+		
+		#if (windows && html5)
 		if (!sys.FileSystem.exists(Sys.getCwd() + "/assets/replays"))
 			sys.FileSystem.createDirectory(Sys.getCwd() + "/assets/replays");
 		#end
