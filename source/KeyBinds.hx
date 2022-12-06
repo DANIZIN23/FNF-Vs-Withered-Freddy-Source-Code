@@ -6,11 +6,11 @@ class KeyBinds
 
     public static function resetBinds():Void{
 
-        FlxG.save.data.upBind = "W";
-        FlxG.save.data.downBind = "S";
-        FlxG.save.data.leftBind = "A";
-        FlxG.save.data.rightBind = "D";
-        FlxG.save.data.killBind = "R";
+        FlxG.save.data.upBind = "D";
+        FlxG.save.data.downBind = "F";
+        FlxG.save.data.leftBind = "J";
+        FlxG.save.data.rightBind = "K";
+        FlxG.save.data.killBind = "NONE";
         PlayerSettings.player1.controls.loadKeyBinds();
 
 	}
