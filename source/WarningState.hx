@@ -148,11 +148,9 @@ class WarningState extends MusicBeatState
 
 		
 		
-		#if polymod
-		polymod.Polymod.init({modRoot: "mods", dirs: ['introMod']});
-		#end
 		
-		#if sys
+		
+		#if (windows && html5)
 		if (!sys.FileSystem.exists(Sys.getCwd() + "/assets/replays"))
 			sys.FileSystem.createDirectory(Sys.getCwd() + "/assets/replays");
 		#end
@@ -181,10 +179,7 @@ class WarningState extends MusicBeatState
 
 		// NGio.noLogin(APIStuff.API);
 
-		#if ng
-		var ng:NGio = new NGio(APIStuff.API, APIStuff.EncKey);
-		trace('NEWGROUNDS LOL');
-		#end
+		
 
 		FlxG.save.bind('funkin', 'ninjamuffin99');
 
